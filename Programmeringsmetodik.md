@@ -1,5 +1,5 @@
 # Teorihandboken - Programmeringsmetodik (PG)
-Studerande: Förnamn Efternamn
+Studerande: Baqer Al-abedi
 
 ## PG 1.1 Versionshantering (Git)
 Beskriv rubriken här

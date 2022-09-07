@@ -1,5 +1,5 @@
 # Teorihandboken - UX och design (UD)
-Studerande: Förnamn Efternamn
+Studerande: Baqer Al-abedi
 
 ## UD 1.1 Grafik och design för webbsidor
 Beskriv rubriken här

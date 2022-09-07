@@ -1,5 +1,5 @@
 # Teorihandboken - HTML & CSS (HC)
-Studerande: Förnamn Efternamn
+Studerande: Baqer Al-abedi
 
 ## HC 1.1 HTML & CSS
 Beskriv rubriken här

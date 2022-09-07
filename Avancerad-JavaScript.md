@@ -1,5 +1,5 @@
 # Teorihandboken - Avancerad JavaScript (AJ)
-Studerande: Förnamn Efternamn
+Studerande: Baqer al-abedi
 
 ## AJ 1.1 Node.js
 Beskriv rubriken här
