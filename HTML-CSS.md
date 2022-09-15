@@ -17,7 +17,8 @@ värden som i sin tur låter elementet ändra sitt beteende på olika vis för a
 Själva idén med "innehåll" är att märka upp text i ett dokument vilar lite på att det finns ett innehåll i elementet, men det är inte ett krav.
 I HTML är "taggar" det som avgör början och slutet på ett element i markup.De flesta element i HTML har en start och en slut-tagg för att indikera var de börjar och slutar.
 Ett "element" i HTML representerar det som man i dokumentet försöker strukturera, eller märka upp, för att ge det semantisk innebörd.
-
+CSS eller Cascading Style Sheets är ett stilmallsspråk som används för att beskriva presentationen av ett dokument skrivet i ett märkningsspråk som html. CSS Skapades år 1996. css är en hörnstensteknik för www tillsammans med JS (Javascript) och html. css används för att definera stilar för dina webbsidor, inklusive design, layout och variationer i visning för olika enheter och skärmstorlekar. Html är inte avsatt för att innehålla taggar för att formatera en webbsida, html skapades för för att beskriva innehållet på en webbsida. En mardröm för webbutvecklare är när taggar som <font> lades till i html 3.2 för att lösa detta problem skapade www css. Css sparar mycket arbete, med en extern stilmallsfil kan du ändra utseendet på en hel webbplats genom att ändra filen som behövs. 
+  
 ## HC 1.2 Responsiv design
 Beskriv rubriken här
 
