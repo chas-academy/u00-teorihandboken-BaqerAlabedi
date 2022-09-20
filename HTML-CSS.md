@@ -6,15 +6,11 @@ Html eller Hyper text markup language är ett märksspråk för hypertext. Med h
 
 Lite historia om html och vad som fanns innan den, vi människor försökte redan på 60-talet effektiversa och automatisera vårt arbete med hjälp av datorer. Pga att vi ville utveckla vårt arbete så kom männiksorna på SGML (Standard Generalized Markup) denna "språk" användes för att lagtexter, industri och struktureera upp dokumentation.
 
-jag har ändrat texten lalalal
-
 Världen var annorlunda på den tiden. Dataskärmarna på den tiden hade fortfarande inte färg. Det såg ut som terminalen vi använer idag, svart bakgrund och grön text. 
 
 Men på 80-talet så hände det grejer, Tim Bernerslee skapade webben. 1989 så kom den första fungerande prototypen, Han var smart och istället för att komma på en helt ny meta-notation så byggde han vidare på frunden som lades av SGML och det var så mina vänner HTML kom till världen som vi ska lära oss.  
 
-
 Html eller Hyper text markup language är ett märksspråk för hypertext. Med hjälp av tcp/ip (En arkitektur för datakommunikation) och Http så utgör de tillsammans det grundläggande standarden för www (WORLD WIDE WEB). Lite historia om html och vad som fanns innan den, vi människor försökte redan på 60-talet effektiversa och automatisera vårt arbete med hjälp av datorer. Pga att vi ville utveckla vårt arbete så kom männiksorna på SGML (Standard Generalized Markup) denna "språk" användes för att lagtexter, industri och struktureera upp dokumentation. Världen var annorlunda på den tiden. Dataskärmarna på den tiden hade fortfarande inte färg. Det såg ut som terminalen vi använer idag, svart bakgrund och grön text. Men på 80-talet så hände det grejer, Tim Bernerslee skapade webben. 1989 så kom den första fungerande prototypen, Han var smart och istället för att komma på en helt ny meta-notation så byggde han vidare på frunden som lades av SGML och det var så mina vänner HTML kom till världen som vi ska lära oss.  
-
 
 Html byggdelar, element, taggar, innehåll och attribut
                         element
