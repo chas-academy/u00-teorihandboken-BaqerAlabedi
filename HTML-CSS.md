@@ -34,7 +34,13 @@ Ett "element" i HTML representerar det som man i dokumentet försöker strukture
 CSS eller Cascading Style Sheets är ett stilmallsspråk som används för att beskriva presentationen av ett dokument skrivet i ett märkningsspråk som html. CSS Skapades år 1996. css är en hörnstensteknik för www tillsammans med JS (Javascript) och html. css används för att definera stilar för dina webbsidor, inklusive design, layout och variationer i visning för olika enheter och skärmstorlekar. Html är inte avsatt för att innehålla taggar för att formatera en webbsida, html skapades för för att beskriva innehållet på en webbsida. En mardröm för webbutvecklare är när taggar som <font> lades till i html 3.2 för att lösa detta problem skapade www css. Css sparar mycket arbete, med en extern stilmallsfil kan du ändra utseendet på en hel webbplats genom att ändra filen som behövs. 
 
 Ett "element" i HTML representerar det som man i dokumentet försöker strukturera, eller märka upp, för att ge det semantisk innebörd.
+<<<<<<< HEAD
 CSS eller Cascading Style Sheets är ett stilmallsspråk som används för att beskriva presentationen av ett dokument skrivet i ett märkningsspråk som html. CSS Skapades år 1996. css är en hörnstensteknik för www tillsammans med JS (Javascript) och html. css används för att definera stilar för dina webbsidor, inklusive design, layout och variationer i visning för olika enheter och skärmstorlekar. Html är inte avsatt för att innehålla taggar för att formatera en webbsida, html skapades för för att beskriva innehållet på en webbsida. En mardröm för webbutvecklare är när taggar som <font> lades till i html 3.2 för att lösa detta problem skapade www css. Css sparar mycket arbete, med en extern stilmallsfil kan du ändra utseendet på en hel webbplats genom att ändra filen som behövs.
+=======
+CSS eller Cascading Style Sheets är ett stilmallsspråk som används för att beskriva presentationen av ett dokument skrivet i ett märkningsspråk som html. CSS Skapades år 1996. css är en hörnstensteknik för www tillsammans med JS (Javascript) och html. css används för att definera stilar för dina webbsidor, inklusive design, layout och variationer i visning för olika enheter och skärmstorlekar. Html är inte avsatt för att innehålla taggar för att formatera en webbsida, html skapades för för att beskriva innehållet på en webbsida. En mardröm för webbutvecklare är när taggar som <font> lades till i html 3.2 för att lösa detta problem skapade www css. Css sparar mycket arbete, med en extern stilmallsfil kan du ändra utseendet på en hel webbplats genom att ändra filen som behövs. 
+  
+
+>>>>>>> 915f1569ffd5988eef9312ba1d9e6dc4e74f7740
 ## HC 1.2 Responsiv design
 Beskriv rubriken här
 
