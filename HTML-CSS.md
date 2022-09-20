@@ -22,7 +22,7 @@ Html byggdelar, element, taggar, innehåll och attribut
             ___________________________________
             <h1 id="headline">jag är en rubrik</h1>
 h1 är en start tag medans /h1 är en endtag
-id="headline" är en attribut
+id="headline" är en attribut        
 jag är en rubrik är innehåll
 
 "Attribut" vilket tilldelar taggar ytterligare
