@@ -35,13 +35,50 @@ CSS eller Cascading Style Sheets är ett stilmallsspråk som används för att b
 
 CSS eller Cascading Style Sheets är ett stilmallsspråk som används för att beskriva presentationen av ett dokument skrivet i ett märkningsspråk som html. CSS Skapades år 1996. css är en hörnstensteknik för www tillsammans med JS (Javascript) och html. css används för att definera stilar för dina webbsidor, inklusive design, layout och variationer i visning för olika enheter och skärmstorlekar. Html är inte avsatt för att innehålla taggar för att formatera en webbsida, html skapades för för att beskriva innehållet på en webbsida. En mardröm för webbutvecklare är när taggar som <font> lades till i html 3.2 för att lösa detta problem skapade www css. Css sparar mycket arbete, med en extern stilmallsfil kan du ändra utseendet på en hel webbplats genom att ändra filen som behövs. 
 ## HC 1.2 Responsiv design
-Beskriv rubriken här
+  Inom responsiv webbdesign finns det dels fem aledningar som är viktigt. Men innan vi snackar om de fem viktiga anledningarna ska vi tala om vad responsiv webbdesign är.
+ 1 förenkla underhåll
+ 2 kosstnadseffektivitet
+ 3 flexbilitet
+ 4 sökmotoropimering
+ 5 användarupplevelse
+
+ Detta innebär att en hemsida ska anpassas efter vilken enhet och skärmstorlek man använder när man besöker hemsidan.  
+ Men varför responsiv design? ja det är enkelt eftersom att det inte räcker längre med att designa för en enhet. Utan att mobil webbtrafiken har gått om datorernas webbtrafik och utgör majoriteten av webbplatsenernas trafik. Det är viktigt med användarupplevelse och just därför kan man inte ge de en sida som är gjord och avsedd för datorn. hälften av dina besökare kommer att potentiellt vara mobilenhet besökare och just därför måste man göra en bra upplevelse. Byggstenarna i responsiv webbdesign är 
+ 1 css och html
+ 2 mediafrågor
+ 3 flytande layout
+ 4 flexbox layout
+ 5 hastighet
+ 6 responsiva bilder
+
+ Flytande layout är en del av modern responsiv design. En flytande layout förlitar sig på dynamiska värden som procentandel av vyports-bredden tex width: 63% eller width:32% denna metod kommer dynamsikt att minska eller öka storlekerna på container-elementen baserad på skärmens storlek. Responsiva bilder är den mest grundläggande upprepringen som följer samma koncept som en flytande layout. En dynamsik enhet avnänds för att styra höjden eller bredden. ett exempel kan var 
+ img {
+    width: 100%
+ }
+ 
+ Hastighet bör vara högsta priotering när man skapar en responsiv design, Din responsiva design får inte fördröja eller blockera sidans första rendering mer än vad det krävs. sidan som laddas på två sekunder har en genomsnitt 9% avvsiningsfrekvens. Det finns sätt att göra dina sidor snabbare tillexempel att optimera dina bilder. 
+ En del av layouten är den flytande delen men webbutvecklare känner att det inte är tillräckligt dynamiskt eller flexibelt. Där kommer flexbox in i bilden, flexbox är en css modul som är utformad som ett effektivare sätt att lägga ut flera element, även när storleken på innehållet inuti containern är okänt. Flexbox är också ett kraftfullt sätt att kontrollera layouten i en webbläsare. Den ersätter alltså inline/block modellen.  
 
 ## HC 1.3 Tillgänglighet inom webb
-Beskriv rubriken nedan här
-
+Flexibilitet innebär att man kan anpsassa sig efter sina användare och att det finns tillgänglighet till människor med funktionshinder så att de också kan använda webben. Det innebär att människor med funktionshinder kan förstå, uppfatta, navigera, och bidra med information till webben. Det gynnar även människor utan funktionshinder, för att nämna ett exempel så är en av huvudprinciperna för tillgänglighet att konstruera webbplatser och program så att de är flexibla nog att passa flera typer av användarbehov. flexibilitet kan även gynna människor utan funktionshinder, till exempel människor med temporära funktionshinder och långsam internetuppkoppling. Vissa webbplatser idag har tillgänglighetsbarriärer som gör det svårt för många funktionshinder att använda webben. Webben blir allt mer viktigare och en viktig verktyg för alla delar i en människans liv. När det kommer till arbete, staten, för företag och utbildning. En av huvudmålen är att se till människor med hinder får samma tillgång till webben och möjligheter att uttnyttja den som alöla andra. Det kan vara ett sätt att göra så att folk med hinder kan få en mer aktiv roll i samhället. Svårt eller lätt det är att göra en webbplats tillgänglig beror på faktorer tex storlek, komplexitet eller innehåll. Det blir mycket lättare att jobba med tillgänglighet om den redan är med i planen för utvecklingen av en ny webbplats. Om man försöker i efterhand att förbättra tillgängligheten blir det svårare. 
 ## HC 1.4 Aktuella webbstandarder (gällande och kommande standarder)
-Beskriv rubriken nedan här
+Webbstandarder är rekommanditioner från WORLD WIDE WEB consortium. Webbstandarder finns för att visa hur webbbaserat innehåll ska skapas och tolkas. Webbstandarder finns för att säkerställa hållbarheten för information som publicerad på webben och samtidigt göra det möjligt att så många som möjligt har det tillgängligt. webbstandarder har funnits sen webben började utvecklas men det har tagit många år förrens rekommendationerena har uppnåt ett brett stöd i de större webbläsarna. vad man menar med att följa webbstandarder menar man att ens webbsidor
+1 är skapat för att fungera i alla webbläsare
+2 använder css istället för tabeller för layout
+3 har logiskt uppmärkt innehåll
+4 använder giltig html eller xhtml
+5 följer w3c:s rekommendationer
+
+Det finns massa affärsfördelar med webbstandarder.
+när filstorlekarna på webbsidorna minskar vilket ger kortare nedladdningstideer blir det snabbare ladning, stöd för fler plattformar kan anpassas till de medium som används för att tillgodogöra informationen ett exempel på detta är utskrift eller mobiltelefonen. minskade kostnader för utveckling och förvaltning, ifall man följer webbstandarder går det snabbare att sätta sig in i hur webbplats fungerar och att minskade underhållskostnader så som att webbsidorna blir mindre och kräver inte lika mycket resurser. 
+
+vi har snackat mycket om webbstandarder med vad är det och vad finns det? XHTML 1.1 STRICT är den senaste och striktaste standarden som finns och denna standar fungerar inte på alla webbläsare. sen finns det också XHTML 1.0 STRICT vilket är den populäraste standarden som finns, eftersom den inte tillåter någon kod som syftar till att beskriva hur webbsidan ska se ut tvingar den fram en bra seperation av innehåll och presentation. xhtml är en form av xml är den mer framtidssäker än vanligt html och mer anpassad fungera i andra typer av webbläsare som tv- skärmar och mobiltelefoner. om du är en person som använder mycket ramar på webbplatsen men ändå vill följa xhtml är xhtml 1.0 frameset för dig fast att denna standard inte är en rekommendation. Vi har snackat mycket om xhtml men vad är det? xhtml är ett märkes språk och en vidareutveckling av html. xhtml är baserat på det flexiblare sgml baserat på det strikare xml. xhtml började som en omformulering av html i xml anses det vara sen senaste versionen av html. 
+
+xhtml 1.0 strict så ser "koden" ut såhär:  DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"
+
+xhtml 1.0 transitional så ser "koden" DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"
+
+
 
 ## HC 1.5 CSS Pre-processorer (ex SASS/LESS)
 Beskriv rubriken nedan här
