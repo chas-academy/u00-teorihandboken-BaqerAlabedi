@@ -87,6 +87,7 @@ xhtml 1.0 transitional så ser "koden" DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.
  1 Bootstrap
  2 tailwind css
  3 bulma css
+
  pre-processor är en ett program som tar input och senare producerar outputen som senare kommer att användas som input till ett annat program. Med andra ord så kan man tillexempel skriva i sass för att det blir enklare och senare "göra" den till en css kod det leder till att koden blir simplare. Med andra ord en pre-processor i ett css program som tar i sin tur något som är skrivet i ett eget "språk" och gör den till en ren css. Man kan säga att en pre-processor är när man vill bygga koden själv ifrån grunden. Det finns flera anledningar varför vi ska använda pre-processor dels hantera nya tillägg i css, för varje leverantör av webbläsare, öka produktivitet, att enklare kunna hantera och strukturera större projket och återanvändning slippa upprepa oss i css. 
  SASS- kallar sig för ett css extension language och har funnits med relativt länge.
  Less- kallar sig för ett bakåt kompatibelt. språktillägg för css och vara ett av de få alternativet som finns till sass.
@@ -96,4 +97,18 @@ xhtml 1.0 transitional så ser "koden" DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.
 
 
 ## HC 1.6 Optimering och validering av HTML & CSS
-Beskriv rubriken nedan här
+Att optimera betyder att finna den bästa optimala lösniningen, vid optimering av dataprogram så menar man främst två olika typer. Antingen utrymmesoptimeringar där man vill göra programmet så litet som det går. Denna typ var vanligare att använda föritiden då arbetsminnen och program var små. Den andra typen är tidsoptimeringar där syftet är att största möjliga beräkningskraften med minsta möjliga antal instruktioner. Färre instruktioner betyder att det tar kortare tid för programmet att klara uppgiften. Optimering är också bra för webbplatsen och hur bra webbplats tas emot av tex sökmotorer för att ge användarna den bästa upplevelsen utav webben. Optimering av resurser är för en användare som inte har någon tålamod. 
+
+Det handlar om sekunder, tar det 0,1 sek så slutar användaren uppleva att svaret är omdelbart, tar det 10 sekunder svarstid då kommer användaren sluta vara uppmärksam och vilja hålla på med något annat eller något nytt. En resurs är till exempel filer som .mp4, .js, .html och .css. Genom att begränsa antalet anrop kan man optimera resurser, Se till att webbläsaren inte behöver göra så mycket anrop som möjligt till servern för att få tag på resurserna som krävs. När du ska ha bilder eller multimedia så bör du välja rätt filformat, exempelvis Jpeg eller png som innehåller färre färger eller transparant. Att använda högre bildkvalitet mer än vad det behövs orsakar det att filerna blir större och webbplatsen blir långsammare. En viktig del är att tänka på hur en sida ska laddas, tänk även på ordningen hur delar av webbplatsen läses in. Optimeringen av innehåll ger förutsättningar för en bra Search Engine Optimization. Genom dessa sätt kan du optimera innehållet. 
+
+1 Tydlig navigation
+2 responsiv layout som måste fungera på desktop och mobil
+3 stavning och grammatik
+4 kontrollera alla länkar
+5 bilder/multimedia som relaterar till innehållet
+6 rätt språk inställt
+7 validerad HTML OCH CSS
+Det finns även mer sätt att optimera innehållet. Men jag nämnde validerad html och css, men vad betyder validerad?
+
+Validering är när man godkänner ett dokument och bekräftar att det som står i dokumenten är korrekt. Allra vanligaste är att dokumentent innehåller krav på en produkt. Validering är då en del av kravhanteringen och syftet med validering är att se till att man verkligen utvecklar den produkt som intressenterna vill ha. Vi använder även validering när vi ska kontrollera att vi följer de aktuella standarna för html och css. Ett bra verktyg är validator som är en bra verktyg när man ska kontrollera html och css. Validatorn är olika beroende på om du kontrollerar din html eller css kod. Den som rekommenderas är standardiseringenorganet w3Cs egna validator. Vi är inga AI robotar utan Människor och människor begår misstag och därför annvänder vi validering. validator hjälper oss programmerare och människor fånga de misstagen som vi har gjrt och hjälpa oss utan att få migrän.. Validering hjälper oss också att göra våra webbplatser mer konskekventa mellan de olika webbläsare som vi har. 
+
