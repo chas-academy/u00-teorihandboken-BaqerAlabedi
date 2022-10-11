@@ -31,11 +31,22 @@ Skillnaden mellan kanban och scrum är att kanban hjälper till att visualisera 
 
 
 ## PJ 1.2 Icke-agila metoder
-Det finns olika metoder på hur man kan arbeta i en projekt. Ett sätt att arbeta är "waterfall" vilket är en mer tradionellt sätt att arbeta på som man har tillämpat inom utvecklingen.Låt oss kolla hur man arbetar inom icke-agila metoderna. Waterfall // Define requirements -> design -> code -> test -> implement
-medans Agile fungerar mer som en cirkel.
+Det finns olika metoder på hur man kan arbeta i en projekt. Ett sätt att arbeta är "waterfall" vilket är en mer tradionellt sätt att arbeta på som man har tillämpat inom utvecklingen. Med tradionell modell så är det en enkelriktad process och att man följer planen i en riktning endast. Efter att man har avslutat en uppgift så går man inte tillbaka till den uppgiften utan man forsätter enligt planen. Ifall man upptäcker ett problem så försöker man lösa det antingen just i den fasen istället för att gå tillbaka till den tidigare fasen. Låt oss kolla hur man arbetar inom Agile metoder det fungerar som en cirkel. inom icke-agila metoderna. Waterfall // 
+
+krav - kravspecifikation som är den första fasen så ska man samla in all information om projektet. Det man går igenom är projektets mål, krav, begränsningar och objektiv.
+analys - Andra fasen så analyseras projektets potential baserat på det tidigare dokumentet man har skapat för kravspecifikationen. Så snabbt man har identifieras projektets möjligheter och avgöra om projektet är genomförbart. utifrån denna analys så kan man skapa policys, modeller och scheman. Man undersöker hur man ska gå tillväga för att få fram resultat. 
+
+design - designen för projektet hjälper skapas genom att använda sig genom analysen som man har gjort under fasen. Beroende på vilket typ av projekt man arbetar med så kan designen komma bli annorlunda. Arbetar man på att skapa en fysisk produkt så är det under designfasen som tekniska modeller. 
+implementation - Under den fjärde fasen så implementeras det som man har planerat i designfasen. Om man arbetar mot ett mål som är fysiskt som exempelvis en produkt. 
+testning - under testning fasen som är fas nummer fem så har man då implementerat allt som planerats för och nu är det dags att testa alla funktionerna och ser till att allt fungerar och det inte finns några problem. Det man gör också är att kolla ifall man har uppnåt resultatet enligt kravspecifikationen. Lyckas man med allt detta och inga problem finns så kan man leverera till kunden och avsluta projektet. 
+
+Det beror på vilket typ av projekt det är som man håller på med så vet man vilka faser man kan använda sig av utav projket. Om man ska arbeta med digitala saker så kan man använda sig av samma faser fast att man lägger till systemdesign, underhåll och istället för en implementation så blir det till två stycken. 
+
+Det finns båda för och nackdelar med att använda sig av vattenfallsmodellen och det leder till att innan man startar ett projekt så bör man gå igenom vad som är fördelen och nackdelen. fördelen med vattenfallsmetoden är redan i första fasen så kan man snabbt upptäcka problem som finns med projektet. Genom att redan i den tidigare fasen så har man samlat in all information som är relevanta för projektet. Ett exempel på det är vilka resurser, begränsningar och krav som kommer att användas.  
+
 
 ## PJ 1.3 Entreprenörskap inom webbutveckling
-Beskriv rubriken nedan här
+
 
 ## PJ 1.4 Issue handling
-Beskriv rubriken nedan här
+
