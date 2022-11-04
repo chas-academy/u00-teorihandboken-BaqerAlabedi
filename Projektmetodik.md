@@ -22,6 +22,7 @@ Det finns aktiviteter i scrum för att kunna avgöra vad som ska göras vid rät
 
 Nu ska vi prata om den andra submetoden vilket är kanban.
 Kanban är en agil metod för systemutvecklare. Kanban fokuserar på att skapa ett kontinuerligt flöde och leverans med jämna intervall till kunden. Genom att fokusera på prioteringar och sätta gränser för antalet samtidiga pågående arbetsuppgifter så kan man enklare fördela uppgifterna mellan teamet och öka. Kanban används och baseras på fyra principer. 
+
 Visualisera arbetsflödet - För att visualisera arbetsflödet och flaskhakar i processen så använder man sig av kanban tavla Genom att lokalisera flaskhakar ger det en möjlighet att åtgärda brister och effektivisera arbetet. 
 begränsa  pågående arbete- är ett sätt att begränsa antalet parallella pågående uppgifter som man arbetar med inom teamet. Detta gör så att "To do" listan begränsas till arbete med högst prioritet. 
 fokusera på flöde - Genom att begränsa så kommer du förbättra arbetsflödet, samla mätvärden för analysera flödet och få ledande indikatorer på framtida problem. 
@@ -49,4 +50,18 @@ Det finns båda för och nackdelar med att använda sig av vattenfallsmodellen o
 
 
 ## PJ 1.4 Issue handling
+Innan vi inleder ett projekt så är det viktigt att vi utgår ifrån användaren, detta leder till att det kommer bli enklare att resonera kring funktionalitet samt hur funktionaliteten skall implementeras. Ifall vi inte känner till, förstår anändare då skriv inte en user stories. Börja med att göra tex användarintervjuer. När vi har fått in en kritisk mängd representativa användare kan man representera de med personas.
+
+Genom att använda en user story så kommer du att beskriva funktionalitet som är värdefulla för användarna eller personen som beställer projektet. En user story består av tre delar. 
+1 beskrivning av historien som används för planering och för påminnelse.
+2 konversation om historian som går in mer i detalj om storyn.
+3 tester som beskriver och delger information om när en story kan anses vara färdigställd eller uppfylld. 
+Detta skrivs oftats tradionellt sätt på papper med orden conversation, card och confirmation i åtanke. 
+
+card- Används för planering, mer informellt, påminnelse under en konversation och används antingen fysisk eller digital post-it.
+Conversation - Av vikt är att förstå att user stories i sig inte är ett hårt underlag som utvecklare eller kund kan använda för att kritisera slutgiltig leverans. Det är okej för utvecklare och beställare att ha konversationer om detaljer angående stories. 
+confirmation - Ifall man börjar tänka på hur funktionalitet ska testas i en tidig stadie desto bättre, I planeringsfasen används baksidan av kortet för att hänvisa till acceptantester.   
+
+En bra mall att utgå ifrån, lägg märke till att role går alldeles utmärkt att byta mot tex personas. Det är även viktigt att ha detaljer eller frågor som man kan använda sig av tex mååste man vara medlem för att söka eller med vilka värden kan man söka? kommun, jobbtitel, andra nyckelord. 
+User stories behövs för att lägga vikt vid verbal kommunikation över skriven, den är även ett bra format för iterativ utveckling, den går även att tolka av både användaren och utvecklaren.  
 
