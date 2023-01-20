@@ -27,7 +27,19 @@ när man använder JavaScript så måste man även köra programmet. JavaScript 
 
 Man kan skriva in all JavaScript direkt i en html dokument eller lägga den i en separat javaScript fil som man sedan länkar till. Att länka sin javascript dokument till html så är det bättre eftersom du håller de separerade och det är mer strukturerat för att hålla reda på all kod. Eftersom att man har den på en separat fil så kommer sidan även att laddas snabbare. Infon som jag har fått har lett till att i framtiden så kommer jag länkade filerna in till html ist för att ha koden i självaste filen. (separation of concerns) 
 ## JS 1.2 JavaScript-ramverk och -bibliotek
-Beskriv rubriken här
+En samling av återanvändbara funktioner som används av dataprogram, detta innebär att den har resurser som man kan återanvända. Detta kallas för ett bibliotek. Resurserna som du kan använda är klasser, för komplicerad kod och under rutiner. Programmeringsspråket har egna standardbibliotek men programmerare kan också skapa egna anpassade bibliotek. Ett stycke kod som kan eller har skrivits av andra utvecklare som kan återanvändas. Med hjälp av ett api kan du få tillgång till funktionalitet som kan integreras smidigt i andra projekt.
+
+Ett stycke kod som dikterar hur projektet ska struktureras och köras är ramverk eller Framework. Arkitekturen i ditt projekt hjälper att definiera designparametrarna för en applikation som hjälper utvecklare att fokusera på specifika egenskaper och betona återanvändningen av design.
+
+skillnader mellan bibliotek och ramverk är b.la
+
+bibliotek är en samling av funktioner som man kan återanvända vilket betyder resurser som används av dataprogram (moduler) lagras i objektformat. Medans en ram är koden som dikterar arkitekturen i självaste projektet. Den som fogar ramar och programmeringsspråk som hjälper till med datorprogram.
+
+inversion of control är den stora och viktigaste som gör så att ramverk skiljer sig från bibliotek. Du har full kontroll när du ringer en metod från bibliotek som har funktioner och rutiner som används av andra program medans kontrollen i ramverk är emellertid inverterad. Det dikterar strukturen på koden och projektet som gör så att du ej kan ringa in i ett ramverk, utan att den kallar dig. " Enkelt uttryckt kan du helt enkelt tänka på biblioteket som en funktion av en applikation och en ram som skelett av applikationen där applikationen definierar sina egna funktioner."
+
+En kod som är skriven av en utvecklare som kan användas av andra utvecklare som kan återanvändas, de införlivas sömlöst i projekt för att lägga till funktionalitet som du kan komma åt med hjälp av ett api medans ramverk ger ett vanligt sätt att bygga och distribuera applikationer som kan användas när ett nytt projekt påbörjas.
+
+jQuery är ett JavaScript bibliotek på flertal plattformar som förenklar Dom-manipulationen tillsammans med många andra komplicerade objekt såsom AJAX-samtal, html-händelse metoder och css-manipulation. Syftet är att den ska kunna förenkla vardags användningen utav J.S på webben. Medans Angularjs är en strukturell ram baserad på arkitekturen som används för att skapa dynamiska webbapplikationer.
 
 ## JS 1.3 Promises
 Promises
@@ -43,8 +55,7 @@ Ett exempel på asynkron programmering med promises kan se ut så här:
 		// 	När HämtaResultat är klar körs detta
 		.then(BehandlaResultat(resultat))
 		// Om något går fel körs den här biten
-		.catch(BehnadlaFel(felkod);
-källa: (https://webbling.se/index.php/Introduktion_till_asynkron_programmering)
+		.catch(BehnadlaFel(felkod); 
 
 Promises har 3 olika tillstånd. Pending, fulfilled och rejected och genom att använda if-satser kan man kolla dessa states för att få det beetende man vill. För att beskriva vad som kan hända efter att funktionen blivit fulfilled eller rejected så kan man använda sig utav “then” 
 
@@ -63,7 +74,7 @@ console.log("Success, You are a student");
 function (error) {
 console.log("Rejected, You are not a student");
 }
-källa: (https://drive.google.com/file/d/11UJrJ_QjYW-VzpvhJOM1hJ58G9Z0I1p2/view)
+
 );
 
 
@@ -126,7 +137,7 @@ När du försöker komma åt egenskaper för olika objekt kommer egenskapen att 
 
 JavaScript har inte “metoder” som klassbaserade språk definerar dem. Vilken funktion som helst kan läggas till ett objekt i form av egenskap i JavaScript. Ärvda funktioner fungerar precis som alla andra egenskaper. När en ärvd funktion exekveras pekar värdet this på det ärvda objektet. 
 
-Exempel från (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain)
+Exempel från 
 const parent = {
   value: 2,
   method() {
@@ -183,7 +194,7 @@ Exempel på synkron programmering:
 	let resultat = HämtaResultat(”select * from database”); // Här ”stannar” körningen tills metoden är klar
 	// Här fortsätter sedan programmet, när förra metoden körts klart och all data är hämtad
 	BehandlaResultat(resultat);
-Källa: (https://webbling.se/index.php/Introduktion_till_asynkron_programmering)
+
 
 Asynkron programemring
 När vi kör vissa funktioner så startas de igång,  medans de jobbar på så kommer koden att gå vidare och kör efterföljande kod. JavaScript är jättebra på asynkron programmering. Utan att invänta den asynkrona metoden går klart eller levererar några resultat. På Grund av olika mekanismer som används på olika plattformar och i olika JavaScript-implementationer och det är en stor chans att koden som du startar kan hamna i en egen tråd. 
@@ -201,4 +212,14 @@ Beskriv rubriken här
 
 ## JS 1.13 Websockets
 Beskriv rubriken här
+
+
+
+källor:
+https://drive.google.com/file/d/1Ykl6rQExfhtvded7CaIBfimgMlO0EBiH/view
+https://www.ecma-international.org/publications-and-standards/standards/ecma-262/(https://webbling.se/index.php/Introduktion_till_asynkron_programmering)
+https://drive.google.com/file/d/11UJrJ_QjYW-VzpvhJOM1hJ58G9Z0I1p2/view)
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain)
+https://webbling.se/index.php/Introduktion_till_asynkron_programmering)
+https://sv.differkinome.com/articles/software/unassigned-2395.html
 
