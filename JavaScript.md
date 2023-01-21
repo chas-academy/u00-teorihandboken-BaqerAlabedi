@@ -114,10 +114,63 @@ Arv används för att vi som programmerare inte behöver upprepa oss i kod och k
 
 
 ## JS 1.5 DOM-manipulation
-Beskriv rubriken här
+DOM-manipulation (Document Object Model) hänvisar till processen att programmatiskt ändra innehållet, strukturen eller stilen på en webbsida med hjälp av JavaScript eller andra skriptspråk. Detta kan inkludera saker som att lägga till eller ta bort element, ändra text eller attribut för element och tillämpa CSS-stilar på element. DOM-manipulation är ett kraftfullt verktyg för att skapa dynamiska och interaktiva webbsidor.
+
+För att kunna modifiera html-dokument, lägga till element, redigera och ta bort. Med Dom api kan man ändra dokumenten som ska renderas i webben. Genom att maniupulera Dom kan du skapa applikationer som uppdaterar sidans data utan att behöva uppdatera den, Du kan även flytta element i dokumentet. 
+
+För att manipulera ett element inuti Dom måste du markera och lagra en referens till det i en variabel. När du använder querySelectorAll så är det inte en array utan en nodlista. En nodlista beter sig i vissa aspekter som en array och dessutom ser ut som en array. Alla metoder som gäller för en array gäller inte för en nodlista. QuerySelector är den senaste metoden istället för det man brukade använda innan som var "tag", "id" och "class"
+
+exempel:
+// Get the element
+var element = document.getElementById("example");
+
+// Change the text of the element
+element.
+element.
+
+element
+innerHTML = "New text";
+
+// Create the new element
+var newElement = document.createElement("p");
+
+// Set the text of the new element
+newElement.innerHTML = "This is a new paragraph.";
+
+// Add the new element to the page
+document.body.appendChild(newElement);
+
+// Get the element
+var element = document.getElementById("example");
+
+// Change the CSS of the element
+element.style.color = "blue";
+
+Det här är bara några exempel på vad som kan göras med DOM-manipulation. Möjligheterna är oändliga och kan användas för att skapa många dynamiska och interaktiva webbsidor.
+
+
 
 ## JS 1.6 HTTP-requests
-Beskriv rubriken här
+HTTP (Hypertext Transfer Protocol) är ett protokoll för att skicka och ta emot data över internet. Det är grunden för World Wide Web (WWW) och används av webbläsare och servrar för att kommunicera med varandra.
+En HTTP-begäran är ett meddelande som skickas av en klient (som en webbläsare) till en server och ber om viss information eller resurs. Begäran Meddelandet inkluderar vanligtvis en metod (som GET eller POST), en URI (Uniform Resource Identifier) ​​och rubriker (som ger ytterligare information om begäran).
+
+URI, även känd som en URL (Uniform Resource Locator), är adressen till den resurs som begärs. Det består vanligtvis av protokollet (http eller https), domännamnet och sökvägen till resursen. Till exempel, i URI:n " http://www.example.com/index.html " är "http" protokollet, " www.example.com " är domännamnet och "/index.html" är vägen till resursen.
+
+Rubrikerna i en HTTP-begäran ger ytterligare information om begäran, såsom typen av innehåll som skickas, storleken på begäran och webbläsaren som används. Några vanliga rubriker inkluderar "Content-Type", "Content-Length" och "User-Agent".
+
+Förfrågnings Metoden används för att indikera den åtgärd som klienten vill utföra på resursen. De vanligaste metoderna är GET, POST, PUT, DELETE och PATCH.
+GET: begär en representation av den angivna resursen. Denna metod används för att hämta information från servern.
+POST: skickar en entitet till den angivna resursen, vilket ofta orsakar en förändring i tillståndet eller biverkningar på servern. Denna metod används för att skicka data till servern, till exempel när du skickar ett formulär.
+
+PUT: ersätter alla aktuella representationer av mål resurser med begärans nyttolast. Denna metod används för att uppdatera en resurs på servern.
+DELETE: tar bort den angivna resursen. Denna metod används för att ta bort en resurs på servern.
+PATCH: tillämpar partiella ändringar på en resurs. Denna metod används för att uppdatera en specifik del av en resurs på servern.
+När servern tar emot en HTTP-begäran bearbetar den den och skickar tillbaka ett svarsmeddelande, som vanligtvis innehåller en statuskod, en text och rubriker. Statuskoden är ett tresiffrigt nummer som indikerar resultatet av begäran. Några vanliga statuskoder inkluderar 200 OCH, 201 Skapad, 204 Inget innehåll, 400 Bad Request och 404 Not Found.
+
+Svarets brödtext innehåller den begärda informationen eller resursen. Det kan vara i form av HTML, XML, JSON eller vanlig text, beroende på vilken typ av resurs som efterfrågas och innehållstypen som anges i rubrikerna.
+Rubrikerna i svaret ger ytterligare information om svaret, såsom typen av innehåll som skickas, storleken på svaret och servern som används. Några vanliga rubriker inkluderar "Content-Type", "Content-Length" och "Server".
+Sammanfattningsvis är HTTP ett protokoll för att skicka och ta emot data över internet. HTTP-förfrågningar är meddelanden som skickas av klienter till servrar som ber om viss information eller resurs. Begäran Meddelandet inkluderar vanligtvis en metod, en URI och rubriker. Servern bearbetar begäran och skickar tillbaka ett svarsmeddelande, som vanligtvis innehåller en statuskod, en text och rubriker. Metoden, URI, rubriker och statuskod används för att indikera åtgärder som utförs, resursen som begärs och resultatet av begäran.
+
 
 ## JS 1.7 Lexical scope
 Beskriv rubriken här
@@ -222,4 +275,6 @@ https://drive.google.com/file/d/11UJrJ_QjYW-VzpvhJOM1hJ58G9Z0I1p2/view)
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain)
 https://webbling.se/index.php/Introduktion_till_asynkron_programmering)
 https://sv.differkinome.com/articles/software/unassigned-2395.html
-
+https://medium.com/swlh/what-is-dom-manipulation-dd1f701723e3
+https://www.w3schools.com/whatis/whatis_http.asp
+https://sv.wikipedia.org/wiki/Hypertext_Transfer_Protocol
