@@ -173,7 +173,42 @@ Sammanfattningsvis är HTTP ett protokoll för att skicka och ta emot data över
 
 
 ## JS 1.7 Lexical scope
-Beskriv rubriken här
+Statisk scoping är en konvention som används av många moderna språk (Programmering), I ett programmeringsspråk hänvisar scope till områden där en funktion eller variabel är synlig och kan/ska finnas tillgänglig för annan kod. Den hänvisar även till att ställa in omfattning eller funktionalitetsintervallet för en variabel. Beroende på programmets textuella struktur så bestäms variabelns omfattning, Detta betyder att en variabel kan bara deklareras inom en specifick räckvidd och endast tilgängliga inom den regionen. programmeringsspråk som involverar lexical scoping är JavaScript, R, ML och haskell.
+
+exempel på scope 
+
+// The following variables are defined in the global scope
+const num1 = 10;
+const num2 = 3;
+const name = 'letsGo';
+
+// This function is defined in the global scope
+function multiply() {
+return num1 * num2;
+}
+multiply(); // Returns 30
+
+medans nästlat scope 
+
+function getScore() {
+const num1 = 13;
+const num2 = 10;
+function add() {
+return `${name} scored ${num1 + num2}`;
+}
+return add();
+}
+getScore(); // Returns "letsGo scored 23"
+
+
+
+
+
+
+
+
+
+
 
 ## JS 1.8 Event handling
 Beskriv rubriken här
@@ -278,3 +313,4 @@ https://sv.differkinome.com/articles/software/unassigned-2395.html
 https://medium.com/swlh/what-is-dom-manipulation-dd1f701723e3
 https://www.w3schools.com/whatis/whatis_http.asp
 https://sv.wikipedia.org/wiki/Hypertext_Transfer_Protocol
+https://www.techtarget.com/whatis/definition/lexical-scoping-static-scoping
