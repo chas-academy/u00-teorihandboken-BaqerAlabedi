@@ -292,7 +292,46 @@ return this.firstName + “ “ + this.lastName;
 
 
 ## JS 1.10 Higher-order functions
-Beskriv rubriken här
+Higher-order functions är en viktig del av funktionell programmering och en grundläggande koncept inom JavaScript. En higher-order function är en funktion som antingen tar en annan funktion som argument eller returnerar en funktion som resultat.
+
+Higher-order functions gör det möjligt att skapa mer dynamisk och flexibel kod eftersom de kan anpassa sig till olika situationer och behov. Genom att använda higher-order functions kan man abstrahera bort komplexitet och skapa återanvändbara kodblock.
+
+En av de vanligaste användningarna av higher-order functions är att använda dem för att manipulera arrayer i JavaScript. Till exempel kan man använda higher-order functions som map(), filter() och reduce() för att bearbeta arrayer på olika sätt.
+
+Följande kodexempel visar hur man kan använda en higher-order function som map() för att dubblera alla tal i en array:
+
+const numbers = [1, 2, 3, 4, 5];
+
+const doubledNumbers = numbers.map((num) => {
+  return num * 2;
+});
+
+console.log(doubledNumbers); // Output: [2, 4, 6, 8, 10]
+
+I exemplet ovan används higher-order funktionen map() för att skapa en ny array som innehåller dubblerade tal från den ursprungliga arrayen.
+
+En annan vanlig användning av higher-order functions är att skapa closures i JavaScript. En closure är en funktion som kan komma åt variabler utanför dess egen omfattning, vilket gör det möjligt att skapa privata variabler och metoder i JavaScript.
+
+Följande kodexempel visar hur man kan använda en higher-order function för att skapa en closure i JavaScript:
+
+function counter() {
+  let count = 0;
+
+  return function() {
+    count++;
+    console.log(count);
+  }
+}
+
+const incrementCounter = counter();
+
+incrementCounter(); // Output: 1
+incrementCounter(); // Output: 2
+incrementCounter(); // Output: 3
+
+I exemplet ovan används en higher-order function för att skapa en closure som räknar upp ett räkneverk varje gång den anropas. Genom att anropa higher-order funktionen counter() och spara resultatet i en variabel kan man skapa en referens till closure-funktionen som räknar upp varje gång den anropas.
+
+Sammanfattningsvis är higher-order functions en viktig del av funktionell programmering och JavaScript. Genom att använda higher-order functions kan man skapa mer dynamisk och flexibel kod och abstrahera bort komplexitet. Higher-order functions används ofta för att manipulera arrayer och skapa closures i JavaScript.
 
 ## JS 1.11 Single-thread programming
 Asynkrona funktioner
