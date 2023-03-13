@@ -47,7 +47,23 @@ Det finns båda för och nackdelar med att använda sig av vattenfallsmodellen o
 
 
 ## PJ 1.3 Entreprenörskap inom webbutveckling
+Entreprenörskap inom webbutveckling handlar om att starta och driva en egen webbutvecklingsverksamhet. Det handlar om att utveckla webbapplikationer, hemsidor och andra digitala produkter för kunder och användare.
 
+Att vara en entreprenör inom webbutveckling innebär att man har en passion för teknik och innovation, och att man är villig att ta risker och arbeta hårt för att uppnå sina mål. Det handlar också om att ha förmågan att identifiera behoven hos kunder och användare, och att skapa produkter och lösningar som uppfyller dessa behov på ett effektivt sätt.
+
+Följande är några viktiga steg för att starta en framgångsrik webbutvecklingsverksamhet:
+
+1. Identifiera din målgrupp: Det första steget i att starta en webbutvecklingsverksamhet är att identifiera din målgrupp. Vem är din potentiella kundkrets och vad är deras behov och önskemål? Att förstå din målgrupp är avgörande för att kunna skapa produkter och tjänster som möter deras behov.
+
+2. Utveckla en produkt eller tjänst: Nästa steg är att utveckla en produkt eller tjänst som uppfyller behoven hos din målgrupp. Det kan handla om att utveckla en hemsida, en mobilapplikation eller en webbapplikation. Det är viktigt att utveckla en produkt eller tjänst som är unik och som skiljer sig från konkurrenterna.
+
+3. Bygg ditt team: Att bygga ett team är avgörande för att kunna driva en framgångsrik webbutvecklingsverksamhet. Det handlar om att hitta personer med olika kompetenser och erfarenheter som kan bidra till att skapa och utveckla produkter och tjänster. Det är också viktigt att bygga ett team som delar samma vision och värderingar som företaget.
+
+4. Marknadsför ditt företag: Marknadsföring är avgörande för att locka nya kunder och användare till din webbutvecklingsverksamhet. Det handlar om att skapa en marknadsföringsstrategi som inkluderar sociala medier, sökmotoroptimering och andra marknadsföringskanaler. Det är också viktigt att skapa en stark varumärkesidentitet som skiljer sig från konkurrenterna.
+
+5. Hantera din verksamhet: Att driva en webbutvecklingsverksamhet innebär också att hantera olika aspekter av företaget, inklusive finansiering, projektledning och personalhantering. Det är viktigt att ha en tydlig affärsplan och att ha koll på företagets ekonomi för att kunna ta beslut som gynnar företagets tillväxt och framgång.
+
+Som entreprenör inom webbutveckling är det viktigt att vara uppdaterad på de senaste trenderna och teknologierna inom branschen. Det handlar om att ha
 
 ## PJ 1.4 Issue handling
 Innan vi inleder ett projekt så är det viktigt att vi utgår ifrån användaren, detta leder till att det kommer bli enklare att resonera kring funktionalitet samt hur funktionaliteten skall implementeras. Ifall vi inte känner till, förstår anändare då skriv inte en user stories. Börja med att göra tex användarintervjuer. När vi har fått in en kritisk mängd representativa användare kan man representera de med personas.
