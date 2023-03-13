@@ -356,7 +356,29 @@ Callback är en metod som körs när den asynkrona koden kört klart. Detta är 
 
 
 ## JS 1.12 OAuth från frontend
-Beskriv rubriken här
+OAuth (Open Authorization) är en säkerhetsprotokoll som används för att tillåta en användare att ge en tredjepartsapplikation (eller klient) åtkomst till resurser som kontrolleras av en annan applikation (eller server) utan att dela användarens inloggningsuppgifter. OAuth används ofta i samband med API:er och är en viktig del av modern webbutveckling.
+
+OAuth från frontend är den process där en frontendapplikation använder OAuth-protokollet för att ge en tredjepartsapplikation tillfällig åtkomst till en användares resurser. En vanlig användning av OAuth från frontend är när en användare loggar in på en webbapplikation med hjälp av ett socialt nätverkskonto som Facebook eller Google.
+
+Följande steg beskriver hur OAuth från frontend fungerar:
+
+1. Användaren försöker logga in på en webbapplikation som stöder OAuth-autentisering med hjälp av en tredjepartsautentiseringstjänst, till exempel Facebook eller Google.
+
+2. Webbapplikationen skickar en begäran till tredjepartsautentiseringstjänsten för att verifiera användarens identitet.
+
+3. Tredjepartsautentiseringstjänsten verifierar användarens identitet och skickar tillbaka ett access token till webbapplikationen.
+
+4. Webbapplikationen använder access token för att begära information från tredjepartsautentiseringstjänsten, till exempel användarens profilinformation eller vännerlista.
+
+5. Tredjepartsautentiseringstjänsten skickar tillbaka den begärda informationen till webbapplikationen.
+
+6. Webbapplikationen använder den mottagna informationen för att skapa en användarsession och ge användaren tillgång till webbapplikationens resurser.
+
+OAuth från frontend är ett säkert och användarvänligt sätt att tillåta en tredjepartsapplikation att få tillgång till en användares resurser utan att behöva dela användarens inloggningsuppgifter. Detta gör det möjligt för användare att använda sina befintliga inloggningsuppgifter från sociala nätverk för att logga in på andra webbapplikationer, vilket sparar tid och minskar risken för att användare glömmer sina inloggningsuppgifter.
+
+För att implementera OAuth från frontend i en webbapplikation krävs det vanligtvis att man använder en klientbibliotek eller en SDK (Software Development Kit) som stöder OAuth-protokollet. Exempel på sådana klientbibliotek inkluderar Google Sign-In, Facebook Login och Auth0.
+
+Sammanfattningsvis är OAuth från frontend en viktig del av modern webbutveckling som gör det möjligt för användare att använda sina befintliga inloggningsuppgifter från sociala nätverk för att logga in på andra webbapplikationer. Genom att använda OAuth-protokollet kan man skapa en säker och användarvänlig autentiser
 
 ## JS 1.13 Websockets
 Beskriv rubriken här
