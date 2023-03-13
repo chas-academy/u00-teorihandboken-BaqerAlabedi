@@ -381,7 +381,43 @@ För att implementera OAuth från frontend i en webbapplikation krävs det vanli
 Sammanfattningsvis är OAuth från frontend en viktig del av modern webbutveckling som gör det möjligt för användare att använda sina befintliga inloggningsuppgifter från sociala nätverk för att logga in på andra webbapplikationer. Genom att använda OAuth-protokollet kan man skapa en säker och användarvänlig autentiser
 
 ## JS 1.13 Websockets
-Beskriv rubriken här
+WebSockets är en teknik för tvåvägs kommunikation mellan en webbläsare och en webbserver över en enda TCP-anslutning. Istället för att använda HTTP-protokollet, som bara tillåter enkelriktad kommunikation, använder WebSockets en annan protokollstack som tillåter både klienten och servern att skicka data till varandra när som helst.
+
+WebSockets är särskilt användbart för realtidsapplikationer där snabb kommunikation mellan servern och klienten är nödvändig. Detta inkluderar exempelvis chattapplikationer, multiplayer-spel och finansiella applikationer. Istället för att ständigt fråga servern om uppdateringar kan WebSockets göra det möjligt för servern att skicka data till klienten omedelbart när det finns en uppdatering.
+
+Följande är de huvudsakliga fördelarna med att använda WebSockets:
+
+1. Snabb kommunikation: WebSockets tillåter en omedelbar kommunikation mellan klienten och servern utan att behöva vänta på en uppdatering från servern.
+
+2. Låg overhead: Eftersom WebSockets använder en enda TCP-anslutning minskar antalet nätverksförfrågningar och minskar därmed nätverksöverheaden.
+
+3. Real-tidsuppdateringar: WebSockets gör det möjligt för servern att skicka data till klienten omedelbart när det finns en uppdatering, vilket gör det idealiskt för realtidsapplikationer.
+
+4. Skalbarhet: WebSockets är en skalbar teknik som kan hantera stora mängder trafik och samtidiga anslutningar.
+
+5. Cross-platform-stöd: WebSockets stöds av de flesta moderna webbläsare och kan användas på alla plattformar.
+
+För att använda WebSockets i en webbapplikation behöver man implementera både en klient- och en serversida. På serversidan behöver man en WebSocket-server som kan hantera inkommande anslutningar och dataöverföringar, medan på klientsidan behöver man implementera WebSocket-API:et i JavaScript.
+
+Följande kodexempel visar hur man kan skapa en WebSocket-anslutning från en webbläsare till en server:
+var socket = new WebSocket("ws://example.com/socket");
+
+socket.onopen = function() {
+  console.log("Ansluten till servern");
+};
+
+socket.onmessage = function(event) {
+  console.log("Mottaget meddelande: " + event.data);
+};
+
+socket.onclose = function() {
+  console.log("Anslutningen stängd");
+};
+
+socket.onerror = function(error) {
+  console.log("Fel: " + error.message);
+};
+detta exempel skapar vi en WebSocket-anslutning till en server på "ws://example.com/socket". När anslutningen har öppnats, loggar vi "Ansluten till servern" i konsolen. När vi mottar ett meddelande från servern, loggar vi meddelandet i konsolen. Om anslutningen stäng
 
 
 
