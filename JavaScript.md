@@ -203,8 +203,37 @@ getScore(); // Returns "letsGo scored 23"
 
 
 ## JS 1.8 Event handling
-Beskriv rubriken här
+Event handling i JavaScript innebär att man definierar en funktion som ska köras när ett specifikt händelseinträffar på en HTML-element, till exempel en klick, musrörelse, tangenttryckning eller laddning av en sida. Detta gör det möjligt att skapa interaktiva och responsiva webbsidor.
 
+För att hantera ett event i JavaScript, behöver man först välja det HTML-element som man vill lyssna på eventet för. Detta kan göras med hjälp av metoder som querySelector() eller getElementById(), vilka letar igenom HTML-dokumentet efter element som matchar en specifik CSS-selektor eller ID.
+
+När man har valt elementet kan man lägga till en händelselyssnare med hjälp av addEventListener()-metoden. Denna metod tar två argument: det första är namnet på eventet, och det andra är den funktion som ska köras när eventet inträffar.
+
+En enkel klick-händelselyssnare kan se ut så här:
+const myButton = document.querySelector('#myButton');
+
+function handleClick() {
+  alert('Knappen har klickats!');
+}
+
+myButton.addEventListener('click', handleClick);
+
+I detta exempel har vi valt en knapp med hjälp av querySelector() och sedan definierat en funktion handleClick() som ska köras när knappen klickas på. Funktionen visar en enkel popupruta med texten "Knappen har klickats!".
+Vi lägger sedan till händelselyssnaren med addEventListener() och anger att vi vill lyssna på en klick-händelse. När klicket inträffar kommer funktionen handleClick() att köras.
+Det är viktigt att inte inkludera parenteserna () efter funktionens namn när man lägger till den som argument i addEventListener(). På så sätt refererar man till funktionen som en variabel snarare än att kalla på den direkt.
+
+Event handling kan användas för att skapa mer interaktiva och responsiva webbsidor. Till exempel kan man använda event handling för att uppdatera en webbsida utan att behöva ladda om sidan, vilket ger en smidigare användarupplevelse.
+En annan användning av event handling är att validera formulärdata. Genom att lyssna på en "submit"-händelse på en formulär kan man kalla på en funktion som kontrollerar om all data är korrekt ifylld innan formuläret skickas till servern.
+
+Man kan också använda event handling för att ändra HTML- eller CSS-kod dynamiskt. Till exempel kan man byta ut en bild när man klickar på en knapp, eller visa eller dölja en del av en sida när man klickar på en länk.
+Event handling kan också användas tillsammans med API:er för att skapa mer avancerade funktioner på en webbsida. Till exempel kan man använda event handling tillsammans med Google Maps API för att visa olika kartor beroende på vilken knapp som klickas på.
+
+Genom att använda händelselyssnare kan man utföra olika åtgärder när ett event inträffar. Till exempel kan man uppdatera en webbsida utan att behöva ladda om sidan, validera formulärdata och ändra HTML- eller CSS-kod dynamiskt.
+Event handling är en viktig del av webbutveckling eftersom det gör det möjligt att skapa mer interaktiva och användarvänliga webbsidor. Genom att använda event handling tillsammans med andra teknologier som API:er kan man skapa mer avancerade funktioner på en webbsida.
+
+Event handling kan verka komplicerat för nybörjare, men det är en viktig färdighet för alla som arbetar med webbutveckling. Genom att förstå hur man hanterar events i JavaScript kan man skapa mer avancerade webbsidor och förbättra användarupplevelsen för besökare.
+
+Sammanfattningsvis är event handling en viktig del av JavaScript och webbutveckling. Genom att lyssna på händelser som inträffar på en webbsida kan man utföra olika åtgärder och skapa mer interaktiva och användarvänliga webbsidor. Genom att lära sig hantera events i JavaScript kan man förbättra sin förmåga som webbutvecklare och skapa mer avancerade funktioner på en webbsida.
 ## JS 1.9 Prototype inheritance
 Prototype inheritance
 
