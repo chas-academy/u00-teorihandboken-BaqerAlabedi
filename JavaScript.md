@@ -202,14 +202,6 @@ getScore(); // Returns "letsGo scored 23"
 
 
 
-
-
-
-
-
-
-
-
 ## JS 1.8 Event handling
 Beskriv rubriken här
 
