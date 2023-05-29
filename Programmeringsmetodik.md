@@ -19,8 +19,14 @@ Git har olika delar, bland annat att den har tre tillstånd, snapshots inte skil
 
 
 ## PG 1.2 Benchmarking
-Beskriv rubriken här
+Benchmarking är en process som innebär att mäta prestanda, effektivitet eller kvalitet hos ett system eller applikationer för att identifera bästa praxis. genom att benchmarka it-relaterade processer kan organisationer få insikt om hur deras miljö presterar jämfört med branchstandarder. Det kan hjälpa att identifera flaskhalsar och möjligheter till optimering. Man kan använda sig utav olika metoder beroende på vad som ska mätas och jämföras. 
 
+1. kostnadbenchmarking - Det är här som kostnaderna och utgifterna jämförs med konkurenterna eller brancshstandarder. Detta metod hjälper organisationen att identifera överdrivna kostnader och innefektiva utgifter. 
+
+2. applikations benchmarking - Det innebär att jämföra prestanda och funkonalitet inom olika progarmmerings applikationer inom samma domän. 
+Genom att använda sig av denna metod kommer företaget hitta och välja de bästa lösningarna och där efter kunna förbättra användar upplevelsen.
+
+3. prestanda benchmarking - Detta innebär att mäta och jämföra prestanda hos system, nätverk och databaser. genom att analysera faktorer som svarstider, hantering av användarbelastning och tillgänglighet för att kunna optimera systemets kapacitet och effektivitet. 
 ## PG 1.3 Testdriven utveckling
 Beskriv rubriken här
 
