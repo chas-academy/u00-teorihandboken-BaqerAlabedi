@@ -128,10 +128,10 @@ Det är viktigt att anpassa deploy- och stagingprocessen efter specifika behov o
 
 ## PG 1.5 Debugging
 
-vad är debugging och varför ska jag kunna det? 
-utvecklare arbetar med information, vi flyttar det, redigerar det och skickar det till ställen som man senare tar emot igen. Buggar är vanlig i mjukvaruutveckling eftersom det är konceptuell och abstarkt aktivitet. 
+vad är debugging och varför ska jag kunna det?
+utvecklare arbetar med information, vi flyttar det, redigerar det och skickar det till ställen som man senare tar emot igen. Buggar är vanlig i mjukvaruutveckling eftersom det är konceptuell och abstarkt aktivitet.
 
-programmering kan vara en mycket känslig aktivitet och det är lätt att tappa siktet som vad som händer. Detta leder till att man kan ge fel kod eller instruktioner till datorn vilket leder till att man missar det man letar efter. som utvecklare kommer man alltid lägga otroligt många timmar på att felsöka kod och lösa problem. Det borde kallas probleming istället för programmering nästan. Därför måste man bli bättre och snabbare på att identifera problem och det är därför debugging hjälper oss. 
+programmering kan vara en mycket känslig aktivitet och det är lätt att tappa siktet som vad som händer. Detta leder till att man kan ge fel kod eller instruktioner till datorn vilket leder till att man missar det man letar efter. som utvecklare kommer man alltid lägga otroligt många timmar på att felsöka kod och lösa problem. Det borde kallas probleming istället för programmering nästan. Därför måste man bli bättre och snabbare på att identifera problem och det är därför debugging hjälper oss.
 
 I nästan alla utvecklingsmiljöer, om din kod misslyckas, kommer du sannolikt att få ett felmeddelande som (till viss del) förklarar varför din kod misslyckas.
 
@@ -145,16 +145,34 @@ const mickTheBug = message => console.log(message)
 Denna kod ger följande fel:
 
 ReferenceError: Cannot access 'mickTheBug' before initialization
-    at Object.<anonymous> (/home/German/Desktop/ger/code/projects/test.js:4:1)
+at Object.<anonymous> (/home/German/Desktop/ger/code/projects/test.js:4:1)
 //
 
 ## PG 1.6 Dokumentation
 
+När vi skriver och dokumenterar så beskriver tankar, och situationer men även för att följa, utvärdera samt utveckla självaste "uppdraget" som man gör. Vi har haft nu en del grupp arbeten och då hjälper det oss att dokumentera vad vi gör under daily scrum möten samt hur vi ska gå vidare och lösa problem. Jag skulle säga att backlog är också en del av dokumentationen eftersom det visar vad personerna i gruppen eller vad som behöver göras för att bli klar med uppgiften. Man bryter ner uppgiften i olika delar för att det går snabbare och man ej behöver ha många bollar i luften.
 
+Dokumentation har hjälp oss en hel del i denna utbildning. Allt från laravels dokumentation till react och alla andra framework som vi använder oss av. Dokumentationen har bra struktur och beskriver samt visar oss hur vi ska gå tillväga med koden eller reglerna. Jag gillar dokumentationen eftersom den visar en hel del kod exempel som man kan använda och göra om eller att man får en hum om hur koden ska ske ut och vad som man behöver göra samt utveckla för att kunna lösa problemet.
+
+Det som även är bra med dokumentation är till exempel laravels API dokumentation som visar oss hur vi ska gå tillväga på controllers och använda oss av de API:erna.
+
+Det kan även finnas några nackdelar med dokumentation, Här är några delar som är dåliga med tex laravels dokumentation
+
+Otydlighet eller brist på exempel: Ibland kan dokumentationen vara otydlig eller sakna tillräckligt med exempel för att förklara vissa koncept eller funktioner. Detta kan göra det svårt för nybörjare att förstå och tillämpa vissa delar av ramverket.
+
+Uppdateringsfördröjning: Laravel är ett aktivt utvecklat ramverk, och det släpps regelbundet uppdateringar och förbättringar. Ibland kan dokumentationen vara något föråldrad och inte helt uppdaterad med de senaste funktionerna och ändringarna. Det kan leda till förvirring för utvecklare som använder den senaste versionen av Laravel.
 
 ## PG 1.7 Struktur av kod i projekt
 
-Beskriv rubriken här
+En strukturerad kod har en stor betydelse för hur framgången kommer vara i ett programutvecklingsprojekt. Det spelar inte riktigt roll hur stor eller litet projektet är så spelar kodens struktur en stor roll för att uppnå fördelar. När det uppstår problem eller buggar i koden är det lättare att felsöka och avhjälpa dem av koden.
+
+Genom att ha en tydlig struktur kan du skapa kod som är användarbar för andra, Om du delar din kod i olika funktioner eller klasser som utför upggifter kan du använda dig av samma kod igen i olika andra delar av projektet men tillochmed använda det i andra projket som du kanske kommer hålla på med i framtiden.
+
+En välstrukturerad kod underlättar även samarbetet mellan flera, ett exempel är just nu i u08. Våran kod är väl strukturerad och vi lämnar det väl strukturerat eller åtminstonde lagt en kommentar så att ifall en annan person ska ta över så förstår man vad man ska bygga på eller utveckla.
+
+En strukturerad kod gör det även lättare att läsa och förstå koden som jag skrev högre upp. Genom att ha tydliga namn samt att dela upp koden i logiska delar kan en annan person i gruppen ta över och snabbt förstå vad koden gör. Detta är extremt viktigt när man är flera personer i gruppen.
+
+Det blir även lättare att åtgärda buggar som kan finnas i koden men även att det blir lättare att testa kodens eventuella problem som kan uppstå. Man kan även göra förbättringar.
 
 ## PG 1.8 Automatisering av arbetsflöde
 
@@ -194,5 +212,3 @@ källa: https://www.techtarget.com/searchsoftwarequality/definition/staging-envi
 källa:https://www.freecodecamp.org/news/what-is-debugging-how-to-debug-code/#howdebuggingstarted
 källa: https://en.wikipedia.org/wiki/Debugging
 källa: https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Tools_and_setup/What_are_browser_developer_tools
-
-
