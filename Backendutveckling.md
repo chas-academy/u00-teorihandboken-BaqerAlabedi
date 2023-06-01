@@ -4,22 +4,36 @@ Studerande: Baqer Al-abedi
 
 ## BE 1.1 PHP
 
-Vad är PHP? PHP är akronym för "PHP: Hypertext Preprocessor" och är ett utbrett skriptspråk med öppen lällkod som används på serversidan (i backend) på en webbapplikation.
+PHP: HYPERTEXT PREPROCESSER är ett utbrett skriptspråk med öppen källkod som används på backend i en webbapplikation.
+
+Den (php) är kraftfull och kärnan i tillexempel wordpress som är en stort bloggsystem. Den (php) driver även flera stora nätverksapplikationer som är lätt för personer som är nybörjare och är villiga att lära sig. Med php kan man mata ut pdf filer och biler även vilken text som helst som tillexempel XML och XHTML.
+
+PHP filer kan innehålla text css, javascript, html och php. Självaste php koden exekveras på servern och gör så att resultatet returneras till webbläsaren som vanlig html. Filerna har tillägget .php
+
+Fördelarna med php är:
+
+1. php är gratis och kan laddas ner från webben som är www.php.net
+2. den är kompatibelt med nästan alla servrar som används idad så som tex iis och apache med mera...
+3. php är väldigt lätt att lära sig och den körs mycket effektivt i backenden.
+4. php stöder ett mycket bredare utbud av olika databaser som man kan använda sig av
+5. Den kan köras på flera olika plattformar så som linux, unix, mac os samt windows. Man kan säga att den kan köras på majoriteten av plattformarna som människorna har.
+
+nackdelarna med php är:
+
+1. Brist på bra verktyg och utvecklingsmiljöer: Jämfört med vissa andra språk och ramverk har PHP ett mindre utbud av kraftfulla verktyg och utvecklingsmiljöer. Detta kan påverka produktiviteten och effektiviteten hos utvecklare som arbetar med PHP.
+2. Löst typsystem: PHP använder ett löst typsystem, vilket kan leda till oväntade beteenden och svårigheter att upptäcka fel i koden. Detta kan öka risken för buggar och säkerhetsproblem.
+3. Brister i standardbiblioteket: PHP:s standardbibliotek kan vara inkonsekvent och sakna vissa funktioner som andra moderna språk erbjuder. Detta kan leda till att utvecklare måste lita på externa bibliotek eller implementera funktioner själva.
+4. Legacy-kod: PHP har funnits i många år och har en stor mängd legacy-kod. Detta kan göra det svårt att underhålla och vidareutveckla äldre PHP-applikationer.
+5. Skrymmande syntax: PHP:s syntax kan upplevas som skrymmande och rörig jämfört med andra moderna språk. Det kan ta tid att vänja sig vid och kan vara svårare att läsa och underhålla för vissa utvecklare.
+6. Sårbarheter och säkerhetsproblem: PHP har haft en historia av säkerhetsproblem och sårbarheter, delvis på grund av dess långa historia och stora användarbas. Det är viktigt att vara medveten om säkerhetsaspekterna och vidta åtgärder för att skydda PHP-applikationer.
+7. Fragmenterad community: PHP har en stor och fragmenterad community, vilket kan göra det svårt att hitta enhetliga och pålitliga resurser för att lära sig och lösa problem.
+8. Svag hantering av fel och undantag: PHP har traditionellt haft svag hantering av fel och undantag, vilket kan göra det svårt att upptäcka och hantera felaktigt beteende i programmet.
+9. Brist på strikt standard: PHP har länge lidit av en brist på strikt standardisering och konsistens. Detta har lett till olika versioner och implementationer, vilket kan skapa kompatibilitetsproblem och förvirring för utvecklare.
+10. Prestandaproblem: PHP är inte känt för att vara det snabbaste språket när det gäller prestanda. För tunga och komplexa applikationer kan PHP visa sig vara mindre effektivt jämfört med andra språk och ramverk.
 
 PHP kan användas för att generera dynamiska webbsidor. PHP kan även skapa, öppna, läsa, skriva, ta bort och stänga filer på servern. Utöver detta kan PHP även samla in formulärdata, skicka och ta emot "cookies", hantera databaser (lägga till, ändra och ta bort data) samt utifrån ett säkerhetsperspektiv kontrollera och administrera användar åtkomst och kryptering av data.
 
-PHP är kraftfullt och är kärnan i t. ex. Wordpress som är ett av världens största bloggsystem. PHP driver flera stora sociala nätverksapplikationer och är lätt för nybörjare att lära sig.
-
 Hur är PHP uppbyggt och funktionalitet? PHP-filer kan innehålla text, HTML, CSS, Javascript och PHP. PHP-kod exekveras på servern och resultatet returneras till webbläsaren som vanlig HTML. PHP-filer har tillägget ".php".
-
-PHP är inte begränsat till HTML. Man kan också mata ut bilder eller PDF-filer samt mata ut vilken text som helt som t. ex. XHTML och XML.
-
-Fördelar
-PHP stöder ett brett utbud av databaser
-PHP är gratis och kan laddas ner från www.php.net
-PHP är lätt att lära sig och körs effektivt i backend
-PHP kan köras på olika plattformar (Windows, Linux, Unix, Mac OS X med mera)
-PHP är kompatibelt med nästan alla servrar som används idag (Apache, IIS, etc)
 
 Utseende PHP skrivs mellan specifika PHP-tags som ser ut på följande sätt:
 
@@ -34,7 +48,6 @@ OOP, klasser och objekt Klasser och objekt är de två huvudsakliga aspekterna a
 En klass kan förklaras som en mall för ett objekt, och ett objekt är en instans av en klass.
 När ett enskilt objekt skapas så äver det alla egenskaper och beteenden från klassen, men varje objekt som skapas kan ha olika värden för dessa egenskaper.
 
-Jag ska förklara dessa aspekter på ett enkelt sätt. Låt oss säga att vi skapar en klass "mattider", i detta fall skulle till exempel "frukost", "lunch" och "middag" vara objekt av klassen frukt. Eller låt oss säga att vi skapar klassen "kläder", då skulle "adidas", "nike" och "gucci" vara objekt av klassen bil.
 
 OOP är snabbare / och enklare att utföra
 OOP ger en tydlig struktur för programmet man utvecklar
@@ -270,6 +283,7 @@ XML taggar är inte fördefinierade som HTMLs taggar.
 En av XML: s stora fördelar är dess flexibilitet. Till skillnad från HTML, som har fördefinierade taggar för specifika ändamål, kan XML-användare själva definiera sina egna taggar och strukturer för att passa sina specifika behov. Detta gör XML mycket anpassningsbart och kan användas för att representera komplexa datastrukturer och hierarkier.
 
 ## BE 1.13 Webbservrar
+
 Ordet webbserver syftar både på själva datorn (hårdvaran) som används för ändamålet och även på det program som sköter innehållet och kommunikationen för tjänsten som servern tillhandahåller.
 
 Men vad innebär detta?
@@ -299,9 +313,6 @@ I bilden ovan kan vi se hur servern hanterar en request. En webbserver-applikati
 HTTPd
 
 Det som brukar ligga och ta emot inkommande förfrågningar (requests) är och skicka ut svar (responses) är någon typ av HTTPd program. Detta program körs i bakgrunden och har rollen som server i en klient-server modell och använder sig av HTTP och HTTPS protokollen. Vanliga implementationer av dessa är Apache och Nginx. Ca 70% av alla webbplatser använder Apache.
-
-
-
 
 källor:
 Källa: https://www.w3schools.com/php/php_intro.asp
