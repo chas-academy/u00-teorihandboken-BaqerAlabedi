@@ -176,15 +176,42 @@ Det blir även lättare att åtgärda buggar som kan finnas i koden men även at
 
 ## PG 1.8 Automatisering av arbetsflöde
 
-Beskriv rubriken här
+Automatisering av arbetsflöde är en metod för att optimera affärsprocesser, Detta händer genom att man använder sig av digitala verktyg samt teknik för att automatisera uppgifter som är repetiva samt hantering av informationsflöden. Organisationer kan uppnå snabbare genomförande av uppgifter samt ökad produktivitrt genom att implementera automatiserings tekniker. 
+
+Ett vanligt verktyg är arbetsflödesautomatiseringsprogramvara, Denna programvara ger möjligheter att designa, definera och automatisera arbetsflöde. Programvarorna erbjuder grafiska gränssnitt där användarna kan definera regler samt villkor för hur en uppgift eller uppgifter ska flyta och hanteras genom systemet. 
+
+Denna automatiseringen kan ske i olika mänger av branscher. Alla uppgifter samt processer som har ett repetivita steg kan dra nytta av automatiseringen, Detta omfattar allt från komplexa affärsprocesser till enkla administrativa uppgifter. 
+
+Genom att koppla olika system samman kan arbetsflödet automatiseras över flera processer samt plattformar. Detta inkluderar integrationer med befintligga affärssystem som ekonomisystem eller kundrelationssystem för att automatisera dataflöden och underlätta informationsbyte mellan olika branscher samt olika avdelningar. 
+
+En viktigt del som händer när man använder sig av automatiersingen är regelbaserad automatisering. Regler samt vilkor skapas för att visa hur arbetsflöderna ska utföras samt hanteras. Det kan användas tillexempel för att automatiskt flytta filer på ett filsystem baserat på attributen eller för att automatiskt skicka ut ett mejl när en händelse sker. 
+
+fördelarna med automatiseringen är att detta leder till att man kan frigöra tid samt resurser som kan användas för mer värdeskapande aktiviteter. Det minskar även risken för fel som kan begås av mänskliga faktorer samt ökar konsistensen, nogrannheten i vissa uppgifter. Det gör det även möjligt att ha en bättre spårbarhet och rapportering. 
+
 
 ## PG 1.9 Virtualisering av utvecklingsmiljö
+De vanligaste formerna av virtualisering av utvecklingsmiljö är användningen av den virtuella maskinen. En virtuell maskin är en implementeras programvara av en dator som sedan kan köra olika oprativ system eller olika applikationer. Utvecklarna kan skapa virtuella maskiner genom användning av virtual box för att specificera sin operationssystem för sina utvecklings behov. Maskinen kan sedan användas för att testa samt bygga olika applikationer utan att det påverkar den lokala miljön för utvecklarne. 
 
-Beskriv rubriken här
+Virtualisering av utvecklingsmiljö skapar en isolerad virtuell miljö där utvecklarna kan arbera. utvecklarna kan skapa egna virtuella maskiner eller containrar genom att de använder sig av virtualiseringsprogramm Detta hjälper utvecklarna att ha alla nödvändiga programvaror, biblotek samt konfigurationer för att köra en applikation. De kan skapas snabbt, dupliceras över olika plattformar samt att de kan distruberas. 
 
+Fördelarna är många. Det möjligör determinitiska utvecklingsmiljör samt att utvecklarna kan skapa en virtuell miljö replikerar deras produktionsmiljö. Detta kan vara allt från operativsystem, konfigurationer samt programvaruversioner som gör så att det minskar risken för problem som är oväntat och feö när koden ska skickas till produktionen. 
+
+Virtualisering av utvecklingsmiljö kan bidra till att man sparar båda tid samt resurser som vi alla högt värderar. Istället för att alla utvecklare ska installera programvaran manuellt så kan utvecklarna använda sig av virtuella miljör som redan har alla nödvändiga programvara och verktyg, Detta sparar tid och raderar fel som kan hända inder installionsprocessen. 
+
+Utvecklarna kan hantera programvaruberoende i en virtuell miljö som är låsta ifrån deras lokala datorer. Detta gör så att risken mellan konflikter och konfigurationer försvinner från utvecklarens dator. 
 ## PG 1.10 Bundeling-verktyg
+Bundeling-verktyg är känt för att vara en mjukvaruverktyg som används för att kombinera flera resurser till en enda bunt. Detta verktyg har blivit känt inom områden såsom webbutveckling samt mjukvaruutveckling. Deras förmåga att optimera processen för att leverera stora mängder innehåll samt data har gjort så att Bundeling-verktyg har blivit ett populär verktyg som man vill använda sig av. 
 
-Beskriv rubriken här
+
+Inom webbutveckling kan Bundeling-verktyg vara viktigt för att kombinera flera css och javascript filer till en enda fil. Inom webbutveckling är bundling-verktyg särskilt användbara. När en webbsida laddas, kräver varje resurs, som CSS- och JavaScript-filer, en separat HTTP-förfrågan till servern. Detta kan leda till långa laddningstider, särskilt när det finns många filer som måste laddas. Genom att använda sig av detta leder det till att webbsidans prestanda ökar genom att man minskar laddningstiden. 
+
+Bundeling-verktyg används även för att samla och kombinera programfiler och resurser i en fil, detta underlättar distrubionen av programvaran och som senare leder till att filstorleken minskar. 
+
+Bundeling-verktyg är fristående program men även inbyggda funktioner i ett utvecklingsram. Ett par exempel som har Bundeling-verktyg i webbutveckling är PARCEL, WEBBPACK. Dessa verktyg erbjuder olika anpassningsmöjligheter samt olika funktioner för att passa olika projektbehov. 
+
+Webbpack är en populär och den mest kraftfulla Bundeling-verktyg. Webbpack erbjuder en stor mängd funktioner samt möjlighetenn att optimera flera typer av filer så som html och bilder. Parcel har sina egna unika uppsättningar av funktioner och fördelar 
+
+Bundeling-verktyg kan användas i olika områden där det skulle uppstå ett behov. behoven är olika, allt ifrån skapa kompletta dokumenatationssaster till att paketera multimediefiler för att distrubition. 
 
 ## PG 1.11 Terminalinterface
 
